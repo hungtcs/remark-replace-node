@@ -1,0 +1,29 @@
+{
+  "name": "remark-replace-node",
+  "version": "0.0.0",
+  "description": "replace the markdown node of the specified type with another type",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "./index.js",
+    "./index.d.ts"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "hungtcs <hungtcs@outlook.com> (https://github.com/hungtcs)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mdast": "^4.0.0",
+    "typescript": "^5.2.2",
+    "unified": "^11.0.3",
+    "unist-util-visit": "^5.0.0"
+  },
+  "peerDependencies": {
+    "unified": "^11.0.3",
+    "unist-util-visit": "^5.0.0"
+  }
+}
