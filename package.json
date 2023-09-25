@@ -1,6 +1,6 @@
 {
   "name": "remark-replace-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "replace the markdown node of the specified type with another type",
   "exports": "./index.js",
   "types": "./index.d.ts",
